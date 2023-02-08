@@ -5,7 +5,7 @@ const Join = (props) =>{
   return(
     <div id ="join">
       {/* Access prop 'words' and print it using .join like words.join(',')*/
-   arr.props.words.join(',')}
+   props.words.join(',')}
     </div>
   )
 }
